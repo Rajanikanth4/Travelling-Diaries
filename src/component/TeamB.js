@@ -3,7 +3,7 @@ import axios from 'axios'
 export default function TeamB(props) {
     const [data, setData]=useState([])
     const getMembers=async()=>{   
-        const url='https://newsapi.org/v2/everything?q=tesla&from=2022-01-15&sortBy=publishedAt&apiKey=6f19958a2a494d1991c05fb129b682f7'     
+        const url='https://newsapi.org/v2/everything?q=tesla&from=2022-01-22&sortBy=publishedAt&apiKey=6f19958a2a494d1991c05fb129b682f7'     
         const res=await axios.get(url)
        setData(res.data.articles)
     }

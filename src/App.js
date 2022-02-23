@@ -23,12 +23,11 @@ import Title from './component/usecontext/Title';
 function App() {
   return (
     <div >
-        <center><h1><kbd>We Have Vacation Connection || Make Your Holidays Memorable</kbd></h1></center>
+        <center><h1><kbd>We Have Vacation Connection 🔗 Make Your Holidays Memorable</kbd></h1></center>
         <Title/>
         <Router>
           <Statename />
           <Routes>
-            {/* <Route exact path='/' element={<Ap />} /> */}
             <Route exact path='/' element={<Up />} />
             <Route exact path='/ap' element={<Ap />}/>
             <Route exact path='/teamA' element={<Teammembers />} />

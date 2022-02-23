@@ -73,3 +73,7 @@
   border-left: 6px solid green;
   height: 500px;
 }
+
+.btn-primary:hover{
+  background-color: red;
+}
